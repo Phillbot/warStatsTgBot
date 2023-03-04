@@ -4,7 +4,7 @@ class GetStatsUtils {
   static dayOfWar = {
     ru: "День войны:",
     uk: "День війни",
-    default: "Day of war",
+    en: "Day of war",
   };
 
   static statsObjKeys = {
