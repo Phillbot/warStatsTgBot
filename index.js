@@ -1,3 +1,4 @@
+require("dotenv").config();
 const telegramBotInit = require("./src/telegram/init");
 
-telegramBotInit();
+telegramBotInit(process.env.TOKEN);
